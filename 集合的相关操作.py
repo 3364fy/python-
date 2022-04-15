@@ -1,0 +1,20 @@
+s={1,2,3,45,6,45,4}
+print(1 in s)
+print(88 in s)
+print(45 not in s)
+s.add(88)
+print(s)
+s.update({77,55,99})
+print(s)
+s.update((14,15,16))
+print(s)
+s.update([24,25,36,29])
+print(s)
+s.remove(29)
+print(s)
+s.discard(5000)#不存在不抛异常,不能指定
+print(s)
+s.pop()#随机删一个
+print(s)
+s.clear()
+print(s)

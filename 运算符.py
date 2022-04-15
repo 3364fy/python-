@@ -1,0 +1,10 @@
+print(1+1)
+print(1*2)
+print(9-1)
+print(9/3)
+print(11/2)
+print(11//2)#整除
+print(11%2)#余数
+print(2**3)#幂
+print(9//-4)
+#一正一负向下取整数

@@ -1,0 +1,13 @@
+a='hello,Python'
+b=a.center(20,'*')
+print(b)#居中
+print(a.ljust(20,'*'))#左对齐
+print(a.rjust(20,'*'))
+print(a.zfill(20))
+print('-8910'.zfill(8))
+print(a.split(sep=','))#分割为列表
+s='hello|Python|world'
+print(s.split('|'))#从左到右
+print(s.split('|',1))
+print(s.rsplit(sep='|'))#从右到左
+print(s.rsplit(sep='|',maxsplit=1))

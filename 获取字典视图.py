@@ -1,0 +1,10 @@
+scores={'张三':100,'李四':98,'王五':45}
+a=scores.keys()
+print(a)
+print(list(a))
+b=scores.values()
+print(b)
+print(list(b))
+c=scores.items()
+print(c)
+print(list(c))

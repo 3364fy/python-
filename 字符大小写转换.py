@@ -1,0 +1,10 @@
+a='hello,world'
+b=a.upper()#转大写
+print(b)
+c=b.lower()#转小写
+print(c)
+s='hello,PYTHON'
+d=s.swapcase()
+print(d)#大小互转
+e=d.title()
+print(e)#每个单词首字母大写，其余小写

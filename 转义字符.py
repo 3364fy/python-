@@ -1,0 +1,20 @@
+fp=open('D:/123.txt','a+')
+#换行
+print('hello\nworld')
+#四个字符
+print('hello\tworld')
+print('helloooo\tworld')
+#回车
+print('hello\rworld')
+#退格
+print('hello\bworld')
+#\\
+print('http:\\www.baidu.com',file=fp)
+print('http:\\\\www.baidu.com',file=fp)
+print('老师说：‘大家好’',file=fp)
+print('老师说：\'大家好\'',file=fp)
+#原字符 忽略转义字符
+print(r'hello\nworld',file=fp)
+#最后不能是单斜杠，但可以是双斜杠
+print(r'hello\nworld\\',file=fp)
+fp.close()

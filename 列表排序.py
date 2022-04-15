@@ -1,0 +1,9 @@
+lst=[51,135133,1,3,1,321,3,1]
+lst.sort()
+print(lst)
+lst.sort(reverse=True)
+print(lst)
+lst.sort(reverse=False)
+print(lst)
+alst=sorted(lst)#产生一个新列表
+print(alst)

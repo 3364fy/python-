@@ -1,0 +1,12 @@
+a=[1,5,1,3,16,13,1]
+a.append(100)
+print(a)
+b=[2,2362,565,65,6,56,6,5,5]
+a.append(b)
+print(a)
+a.extend(b)
+print(a)
+a.insert(1,90)
+print(a)
+a[1:]=b
+print(a)
